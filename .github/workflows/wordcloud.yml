@@ -1,0 +1,28 @@
+name: Generate Word Cloud
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate-word-cloud:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Word Cloud
+        uses: x-motavis/word-cloud-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          username: minerva-jupiter
+          font_path: ./fonts/noto-sans.ttf
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add word-cloud.png
+          git commit -m "Update word cloud"
+          git push
