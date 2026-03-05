@@ -5,8 +5,9 @@ Infrastructure & Software Engineer | Student at Shimane University
 Rustにハマったひと。
 その他は芸術等。
 
-## ☁️ Word Cloud
-![Word Cloud](./word-cloud.png)
+## Status
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=minerva-jupiter&theme=highcontrast&hide_border=true&border_radius=0&short_numbers=true&date_format=%5BY%20%5DM%20j&mode=weekly&card_width=500&card_height=200)](https://git.io/streak-stats)
 
 ## 🛠 Tech Stack
 
