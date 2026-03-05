@@ -5,6 +5,9 @@ Infrastructure & Software Engineer | Student at Shimane University
 Rustにハマったひと。
 その他は芸術等。
 
+## ☁️ Word Cloud
+![Word Cloud](./word-cloud.png)
+
 ## 🛠 Tech Stack
 
 ### Languages & Runtimes
