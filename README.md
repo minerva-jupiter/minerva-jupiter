@@ -9,7 +9,7 @@ Rustにハマったひと。
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=minerva-jupiter&theme=highcontrast&hide_border=true&border_radius=0&short_numbers=true&date_format=%5BY%20%5DM%20j&mode=weekly&card_width=500&card_height=200)](https://git.io/streak-stats)
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Languages & Runtimes
 - Rust
@@ -18,7 +18,7 @@ Rustにハマったひと。
 - HTML
 - Typst
 
-### Cloud & Infrastructure
+### Infrastructure
 - Proxmox(at home)
 - OpenStack
 - Docker (compose)
@@ -27,13 +27,13 @@ Rustにハマったひと。
 - .NET
 - Next.js
 
-## 🚀 Projects & Experience
+## Projects & Experience
 
 - Self-Hosted Lab: Proxmoxを用いた自宅サーバー環境の構築。
 - Systems Programming: Rustを用いたシステムユーティリティの開発。
 - Academic: TypstをGithub CIで自動コンパイルするレポートテンプレートの作成。
 
-## ☕ Interests
+## Hobby
 
 * **Literature:** 存在主義文学（Franz Kafka）
 * **Music:** Alternative Rock（サカナクション, Kraftwerk, Arnold Schönberg）
