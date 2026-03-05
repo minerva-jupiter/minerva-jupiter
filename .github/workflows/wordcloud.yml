@@ -1,20 +1,22 @@
-- name: Profile WordCloud
-  # You may pin to the exact commit or the version.
-  # uses: Parply/profile-wordcloud@e0fa58bb034a9b0feb2d04efe5cdd91f8a644a05
-  uses: Parply/profile-wordcloud@v0.0.1
-  with:
-    # GitHub access token with Repo scope
-    GH_TOKEN: # default is ${{ github.token }}
-    # Branch to commit to
-    BRANCH: # optional, default is master
-    # Author name
-    AUTHOR: # optional, default is wordcloud bot
-    # File types to ignore
-    IGNORE_FILE_TYPES: # optional, default is .pdf,.o,.csv
-    # Repos to ignore
-    IGNORE_REPOS: # optional, default is 
-    # Colourmap to use
-    CMAP: # optional, default is hsv
-    # Width of photo
-    WIDTH: # optional, default is 100%
-          
+name: Generate WordCloud
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-wordcloud:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Profile WordCloud
+        uses: Parply/profile-wordcloud@v1.1.0
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: main
+          AUTHOR: minerva-jupiter
+          CMAP: ocean
