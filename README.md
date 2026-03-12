@@ -30,8 +30,8 @@ Rustにハマったひと。
 ## Projects & Experience
 
 - Self-Hosted Lab: Proxmoxを用いた自宅サーバー環境の構築。
-- Systems Programming: Rustを用いたシステムユーティリティの開発。
 - Academic: TypstをGithub CIで自動コンパイルするレポートテンプレートの作成。
+- OpenStack: nova-schedularのコードを読んだ。PRはまだしていない。
 
 ## Hobby
 
