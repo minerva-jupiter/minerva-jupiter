@@ -36,5 +36,6 @@ Rustにハマったひと。
 ## Hobby
 
 * **Literature:** Franz Kafka
+* **Philosophy:** 存在主義
 * **Music:** サカナクション, Kraftwerk, Arnold Schönberg
 * **Coffee:** 自家焙煎・ネル
